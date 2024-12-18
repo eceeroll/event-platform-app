@@ -1,0 +1,163 @@
+.container {
+  display: flex;
+  padding: 20px;
+  margin-top: 2rem;
+}
+
+.leftColumn,
+.rightColumn {
+  width: 50%;
+  padding: 20px;
+}
+
+.leftColumn {
+  border-right: 2px solid #ccc;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pointsBox {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.pointsIcon {
+  color: #ffd700;
+  font-size: 24px;
+  margin-left: 0.5rem;
+}
+
+.points {
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0.9rem;
+}
+
+.pointsRulesSection,
+.leaderboardSection {
+  margin-bottom: 30px;
+}
+
+.pointsList {
+  list-style: none;
+  padding: 0;
+}
+
+.pointsList li {
+  font-size: 16px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.pointsList li svg {
+  margin-right: 10px;
+}
+
+.leaderboardSection h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.leaderboard {
+  margin: 10px 0;
+}
+
+.leaderboardItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.points {
+  color: #007bff;
+}
+
+.achievementsSection {
+  margin-top: 20px;
+}
+
+.achievementCard {
+  display: flex;
+  align-items: center;
+  background-color: #e1f5fe;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.achievementBadge {
+  font-size: 36px;
+  margin-right: 15px;
+}
+
+.achievementDetails h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.achievementDetails p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
+.rankingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rankingItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.rankingNumber {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc107;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.rankingName {
+  flex: 1;
+  font-size: 16px;
+}
+
+.rankingPoints {
+  font-weight: bold;
+  color: #333;
+}
+
+.unachieved {
+  opacity: 0.5;
+  color: gray;
+}

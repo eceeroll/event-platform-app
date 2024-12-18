@@ -1,0 +1,166 @@
+.profileContainer {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  color: #333;
+  width: 100%;
+}
+
+input:disabled {
+  background-color: #f5f5f5;
+  color: #888;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.saveButton,
+.cancelButton,
+.editButton {
+  padding: 10px 20px;
+  margin: auto 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.saveButton {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.editButton {
+  background-color: #007bff;
+  color: #fff;
+  width: 100%;
+}
+
+.saveButton:hover,
+.cancelButton:hover,
+.editButton:hover {
+  opacity: 0.9;
+}
+.successMessage {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.interestsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.interestsSection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.interestsSection li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 5px 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.selectContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.selectContainer select {
+  padding: 4px 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.addButton {
+  background-color: #28a745;
+  width: 20%;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addButton:hover {
+  background-color: #218838;
+}
+
+.addButton:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.removeButton {
+  width: 10%;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 2px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.removeButton:hover {
+  background-color: #c82333;
+}

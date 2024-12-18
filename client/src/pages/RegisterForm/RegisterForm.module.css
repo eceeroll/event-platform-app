@@ -1,0 +1,168 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 575px;
+  border: none;
+  padding: 20px;
+  border-radius: 1em;
+  box-shadow: 5px 7px 12px rgba(0, 0, 0, 0.121);
+  box-sizing: border-box;
+  margin: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.title {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.sub-container {
+  padding: 3px;
+  width: 415px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.inputGroup label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 5px 3px 6px gray;
+  box-sizing: border-box;
+}
+
+.errorText {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.errorInput {
+  border: 1px solid red;
+  background-color: #ff9696;
+}
+
+.successMessage {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.successMessage h2 {
+  color: #1f4ce0;
+  margin-bottom: 10px;
+}
+
+.successMessage p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.successMessage button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.successMessage button:hover {
+  background-color: #0a68a7;
+}
+
+button {
+  background-color: #c77dff;
+  color: white;
+  padding: 14px 20px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+button:hover {
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+form {
+  line-height: 1.5em;
+}
+
+/* Link stili */
+.direct {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* .direct span {
+  margin-top: 0;
+  font-size: 14px;
+  color: #555;
+} */
+
+.direct {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-align: right;
+  font-size: 16px;
+  color: #555;
+}
+
+.direct a {
+  color: #c77dff;
+}
+
+.direct a:hover {
+  text-decoration: underline;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-wrap: wrap; /* Checkbox'ların satırdan taşmasını engeller, bir satırda birden fazla olacak şekilde taşar */
+  gap: 15px; /* Checkbox'lar arasında boşluk bırakır */
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-right: 20px; /* Her checkbox arasında biraz boşluk bırakır */
+}
+
+.checkboxLabel input {
+  margin-right: 8px; /* Checkbox ile etiket arasına boşluk ekler */
+}
+
+.errorText {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}

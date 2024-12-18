@@ -1,0 +1,13 @@
+.logo-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #fff; /* Arka plan transparan */
+  padding: 19px;
+  z-index: 1000;
+}
+
+.logo {
+  height: 100px;
+  display: block;
+}

@@ -1,0 +1,116 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.profileMenu {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  background-color: #219ebc;
+  padding: 10px;
+  color: #fff;
+  border-radius: 0.7rem;
+  font-size: 13px;
+}
+
+.profileInfo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profileIcon {
+  margin-right: 5px;
+}
+
+.dropdownMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  z-index: 1000;
+}
+
+.dropdownMenu.active {
+  display: block;
+}
+
+.dropdownMenu a,
+.dropdownMenu button {
+  display: block;
+  padding: 4px;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdownMenu a:hover,
+.dropdownMenu button:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdownMenu button:last-child {
+  border-bottom: none;
+  background-color: red;
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* İki sütun */
+  gap: 20px; /* Kartlar arasındaki boşluk */
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .event-list {
+    grid-template-columns: 1fr; /* Mobilde tek sütun olacak */
+  }
+}
+
+.eventButtonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-left: 7em;
+}
+
+.eventButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.eventButton:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
